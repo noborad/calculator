@@ -1,0 +1,28 @@
+.calc-box {
+    width: 50%;
+}
+
+#output {
+    width: 100%;
+    text-align: right;
+    color: white;
+    background-color: black;
+}
+
+.class1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.class1 input {
+    width: 23%;
+}
+
+.most-under {
+    display: flex;
+    justify-content: space-around;
+}
+
+.most-under input {
+    width: 48%;
+}

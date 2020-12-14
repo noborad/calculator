@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="main.css">
+        <title>電卓</title>
+    </head>
+
+    <body>
+        <h3>電卓</h3>
+
+        <!-- ここに記述していきましょう！ -->
+        <div class="calc-box">
+            <input type="text" id="output" value="">
+            <div class="class1">
+                <input type="button" value="7" onClick="buttonClick(this)">
+                <input type="button" value="8" onClick="buttonClick(this)">
+                <input type="button" value="9" onClick="buttonClick(this)">
+                <input type="button" value="+" onClick="buttonClick(this)">
+            </div>
+            <div class="class1">
+                <input type="button" value="4" onClick="buttonClick(this)">
+                <input type="button" value="5" onClick="buttonClick(this)">
+                <input type="button" value="6" onClick="buttonClick(this)">
+                <input type="button" value="-" onClick="buttonClick(this)">
+            </div>
+            <div class="class1">
+                <input type="button" value="1" onClick="buttonClick(this)">
+                <input type="button" value="2" onClick="buttonClick(this)">
+                <input type="button" value="3" onClick="buttonClick(this)">
+                <input type="button" value="*" onClick="buttonClick(this)">
+            </div>
+            <div class="class1">
+                <input type="button" value="0" onClick="buttonClick(this)">
+                <input type="button" value="00" onClick="buttonClick(this)">
+                <input type="button" value="." onClick="buttonClick(this)">
+                <input type="button" value="/" onClick="buttonClick(this)">
+            </div>
+            <div class="most-under">
+                <input type="button" value="AC" onclick="allClear()">
+                <input type="button" value="=" onclick="result()">
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
